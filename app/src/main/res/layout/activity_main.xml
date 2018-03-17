@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ftm.digi1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="199dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="SUN" />
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="186dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="21" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="186dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="7" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="19dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text=":" />
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="91dp"
+                android:layout_height="36dp"
+                android:gravity="right"
+                android:text="3"/>
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="85dp"
+                android:layout_height="36dp"
+                android:gravity="left"
+                android:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
